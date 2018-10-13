@@ -51,6 +51,9 @@ You should see "Hello tensorflow"
 
 # For GPU
 
+## Step-1
+Please do the previous step-1
+
 
 
 
