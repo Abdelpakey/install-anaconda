@@ -15,4 +15,5 @@ Please make sure you have Nvidia GPU (from Windows Device Manager) if you dont h
 
 ### Step-1 
 #### install Anaconda
-If you install Anaconda for the first time, please check the first option 
+If you install Anaconda for the first time, please check the first option, otherwise don't check it.
+![Qualitative_results](./pics/Caputure1.JPG)
