@@ -13,6 +13,8 @@ Please make sure you have Nvidia GPU (from Windows Device Manager) if you dont h
 - [x] Anaconda [Download](https://www.anaconda.com/download/#windows).
 - [x] Tensorflow (you dont need to download), just follow the instructions later.
 
+# For CPU
+
 ### Step-1 
 #### install Anaconda
 If you install Anaconda for the first time, please check the first option, otherwise don't check it.
@@ -25,6 +27,11 @@ It would take a while depending on your PC.
 conda create -n tf python=3.6 pip
 ### Step-2
 In Anaonda prompt type in
+
+#### Activate tf 
+or
+#### Conda activate tf
+
 #### Pip install tensorflow (for CPU)
 If you enconter issues try to use 
 #### conda install -c conda-forge tensorflow 
@@ -32,6 +39,16 @@ If you enconter issues try to use
 ### How to test your Anaconda and Tensorflow
 Open-up anaconda and install Spyder
 ![Spyder](./pics/Capture3.JPG)
+
+In Spyder, type in 
+
+import tensorflow as tf
+hello = tf.constant('hello tensorflow')
+with tf.Session() as sesh:
+    print(sesh.run(hello)) 
+    
+You should see "Hello tensorflow"
+
 
 
 
