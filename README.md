@@ -72,10 +72,32 @@ Install CUDA:
 
 First find if the GPU is compatible with Tensorflow GPU or not! from [Here](https://developer.nvidia.com/cuda-gpus)
 - [x] Download and Install Cuda Toolkit from [here](https://developer.nvidia.com/cuda-downloads) and select the proper operating system for yor machine.
-- [x] Download cuDNN by signing up on Nvidia Developer [Website](https://developer.nvidia.com/cudnn)
+- [x] Download cuDNN that is compatible with your Cuda version that you have downloaded and installed by signing up on Nvidia Developer [Website](https://developer.nvidia.com/cudnn)
 
 Note: you must have an account to download cuDNN (it's free)
-- [x] Install cuDNN by extracting the contents of cuDNN into the Toolkit path (c:\users\yourname\programfiles\Nvidia...\Cuda). There will be files that you have to replace in CUDA Toolkit Directory.
+- [x] Install cuDNN by extracting the contents of cuDNN into the Toolkit path (c:\users\yourname\programfiles\Nvidia Gpu Computing\ Toolkit\Cuda). There will be files that you have to replace in CUDA Toolkit Directory.
+- [x] Add the path of cuda to your system variable.
+
+## Step-3
+Install Tensorflow
+
+- [x] Open Spyder and creat an enviroment conda create -n tf python=3.6 pip
+
+  This is for python ver 3.6 you can change it to be 3.7 but I never used pyhon 3.7 so I don't know if it's gonna work or not.
+  
+ - [x] Activate the created enviroment by "conda activate tf"
+ - [x] Install tensorflow by "pip install tensorflow-gpu"
+ - [x] Test tensorflow as follows 
+ 
+             import tensorflow as tf
+            hello = tf.constant('Hello tensorflow')
+            with tf.Session() as sesh:
+                print(sesh.run(hello))
+   You shoud see Hello tensorflow
+   
+   If you have issues with tensorflow installation, please follow this [video](https://www.youtube.com/watch?v=uIm3DMprk7M&t=12s)
+   
+   
 
 
 
