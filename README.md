@@ -42,10 +42,10 @@ Open-up anaconda and install Spyder
 
 In Spyder, type in 
 
-import tensorflow as tf
-hello = tf.constant('hello tensorflow')
-with tf.Session() as sesh:
-    print(sesh.run(hello)) 
+    import tensorflow as tf
+    hello = tf.constant('hello tensorflow')
+    with tf.Session() as sesh:
+        print(sesh.run(hello)) 
     
 You should see "Hello tensorflow"
 
