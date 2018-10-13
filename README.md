@@ -30,7 +30,7 @@ If you enconter issues try to use
 #### conda install -c conda-forge tensorflow 
 
 ### How to test your Anaconda and Tensorflow
-#### Open-up anaconda and install Spyder
+Open-up anaconda and install Spyder
 ![Spyder](./pics/Capture3.JPG)
 
 
