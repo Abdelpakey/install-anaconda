@@ -25,8 +25,8 @@ It would take a while depending on your PC.
 conda create -n tf python=3.6 pip
 ### Step-2
 In Anaonda prompt type in
-### Pip install tensorflow (for CPU)
+#### Pip install tensorflow (for CPU)
 If you enconter issues try to use 
-### conda install -c conda-forge tensorflow 
+#### conda install -c conda-forge tensorflow 
 
 
