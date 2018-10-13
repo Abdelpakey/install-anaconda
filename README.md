@@ -76,6 +76,9 @@ First find if the GPU is compatible with Tensorflow GPU or not! from [Here](http
 
 Note: you must have an account to download cuDNN (it's free)
 - [x] Install cuDNN by extracting the contents of cuDNN into the Toolkit path (c:\users\yourname\programfiles\Nvidia Gpu Computing\ Toolkit\Cuda). There will be files that you have to replace in CUDA Toolkit Directory.
+
+![cuDNN](./pics/Capture4.JPG)
+
 - [x] Add the path of cuda to your system variable.
 
 ## Step-3
