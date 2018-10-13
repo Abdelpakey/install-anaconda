@@ -72,9 +72,10 @@ Install CUDA:
 
 First find if the GPU is compatible with Tensorflow GPU or not! from [Here](https://developer.nvidia.com/cuda-gpus)
 - [x] Download and Install Cuda Toolkit from [here](https://developer.nvidia.com/cuda-downloads) and select the proper operating system for yor machine.
-- [x] Download and insatall  cuDNN by signing up on Nvidia Developer [Website](https://developer.nvidia.com/cudnn)
+- [x] Download cuDNN by signing up on Nvidia Developer [Website](https://developer.nvidia.com/cudnn)
 
-Note: you must have an account to download cuDNN
+Note: you must have an account to download cuDNN (it's free)
+- [x] Install cuDNN by extracting the contents of cuDNN into the Toolkit path (c:\users\yourname\programfiles\Nvidia...\Cuda). There will be files that you have to replace in CUDA Toolkit Directory.
 
 
 
