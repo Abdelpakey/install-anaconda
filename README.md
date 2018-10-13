@@ -13,7 +13,7 @@ Please make sure you have Nvidia GPU (from Windows Device Manager) if you dont h
 - [x] Anaconda [Download](https://www.anaconda.com/download/#windows).
 - [x] Tensorflow (you dont need to download), just follow the instructions later.
 
-# For CPU
+# For CPU ONLY
 
 ### Step-1 
 #### install Anaconda
@@ -21,6 +21,19 @@ If you install Anaconda for the first time, please check the first option, other
 ![Anaconda](./pics/Capture1.JPG)
 
 It would take a while depending on your PC.
+
+If you got a blank (black/white) spyder window after installation then do:
+
+source activate (yourenv) conda install -c anaconda pyopengl (https://anaconda.org/anaconda/pyopengl)
+
+If you got spyder startup problem or error
+
+source activate (yourenv)
+conda list
+you will see  sqlite
+then remove it 
+conda remove sqlite 
+then open-up your anaconda and install spyder again   
 #### Open-up Anaconda prompt
 ![Anaconda](./pics/Capture2.JPG)
 #### Creat a new enviroment with any name (e.g. tf)
@@ -49,10 +62,14 @@ In Spyder, type in
     
 You should see "Hello tensorflow"
 
-# For GPU
+# For GPU (Nvidia)
 
 ## Step-1
 Please do the previous step-1
+
+## step-2
+
+
 
 
 
