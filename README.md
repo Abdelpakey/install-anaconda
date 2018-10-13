@@ -89,10 +89,12 @@ Install Tensorflow
  - [x] Install tensorflow by "pip install tensorflow-gpu"
  - [x] Test tensorflow as follows 
  
-             import tensorflow as tf
+            import tensorflow as tf
             hello = tf.constant('Hello tensorflow')
             with tf.Session() as sesh:
                 print(sesh.run(hello))
+   
+   #Identation must be consistent#
    You shoud see Hello tensorflow
    
    If you have issues with tensorflow installation, please follow this [video](https://www.youtube.com/watch?v=uIm3DMprk7M&t=12s)
