@@ -99,6 +99,10 @@ Install Tensorflow
    
    If you have issues with tensorflow installation, please follow this [video](https://www.youtube.com/watch?v=uIm3DMprk7M&t=12s)
    
+   IF you have any other issues you can look into my repositries I have highlighted the most common issues and their solutions.
+   
+   It's meant for Ubuntue but it might be useful for windows too[my Github](https://github.com/Abdelpakey?tab=repositories)
+   
    
 
 
