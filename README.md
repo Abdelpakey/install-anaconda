@@ -21,3 +21,12 @@ If you install Anaconda for the first time, please check the first option, other
 It would take a while depending on your PC.
 #### Open-up Anaconda prompt
 ![Anaconda](./pics/Capture2.JPG)
+#### Creat a new enviroment with any name (e.g. tf)
+conda create -n tf python=3.6 pip
+### Step-2
+In Anaonda prompt type in
+Pip install tensorflow (for CPU)
+If you enconter issues try to use 
+conda install -c conda-forge tensorflow 
+
+
