@@ -19,3 +19,5 @@ If you install Anaconda for the first time, please check the first option, other
 ![Anaconda](./pics/Capture1.JPG)
 
 It would take a while depending on your PC.
+#### Open-up Anaconda prompt
+![Anaconda](./pics/Capture2.JPG)
