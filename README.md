@@ -68,9 +68,10 @@ You should see "Hello tensorflow"
 Please do the previous step-1
 
 ## step-2
-Install tensorflow:
+Install CUDA:
 
 First find if the GPU is compatible with Tensorflow GPU or not! from [Here](https://developer.nvidia.com/cuda-gpus)
+- [x] Download and Install Cuda Toolkit from [here](https://developer.nvidia.com/cuda-downloads) and select the proper operating system for yor machine.
 
 
 
