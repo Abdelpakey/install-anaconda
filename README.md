@@ -69,6 +69,7 @@ Please do the previous step-1
 
 ## step-2
 Install tensorflow:
+
 First find if the GPU is compatible with Tensorflow GPU or not! from [Here](https://developer.nvidia.com/cuda-gpus)
 
 
