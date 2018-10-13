@@ -49,6 +49,8 @@ In Spyder, type in
     
 You should see "Hello tensorflow"
 
+# For GPU
+
 
 
 
