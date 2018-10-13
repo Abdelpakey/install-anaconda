@@ -17,3 +17,4 @@ Please make sure you have Nvidia GPU (from Windows Device Manager) if you dont h
 #### install Anaconda
 If you install Anaconda for the first time, please check the first option, otherwise don't check it.
 ![Anaconda](./pics/Capture1.JPG)
+It would take a while depending on your PC.
