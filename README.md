@@ -29,4 +29,7 @@ In Anaonda prompt type in
 If you enconter issues try to use 
 #### conda install -c conda-forge tensorflow 
 
+### How to test your Tensorflow
+
+
 
